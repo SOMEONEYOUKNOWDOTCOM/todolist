@@ -1,0 +1,102 @@
+body {
+  background-color: #2a3439;
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  justify-content: flex-start;  /* Start at the top of the page */
+  align-items: center;  /* Center items horizontally */
+  height: 100vh;  /* Full viewport height */
+  margin: 0;
+}
+
+#IDK,
+#pronun,
+#dateButton,
+#Items,
+#dateDisplay,
+#myList,
+#activityTime,
+#Reminder,
+#clear,
+#activityInput {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+  opacity: 100%;
+  margin-bottom: 20px; /* Space between each element */
+}
+
+#IDK {
+  font-size: 60px;
+  color: #ffcc00;
+}
+
+#pronun {
+  font-size: 30px;
+  color: DeepPink;
+}
+
+#dateButton {
+  font-size: 30px;
+  color: black;
+}
+
+#Items {
+  font-size: 30px;
+  color: GoldenRod;
+}
+
+#dateDisplay {
+  font-weight: bold;
+  font-size: 24px;
+  color: #d2691e;
+}
+
+#myList {
+  font-weight: bold;
+  font-size: 24px;
+  color: red;
+}
+
+#activityTime {
+  font-size: 30px;
+  color: Crimson;
+}
+
+#Reminder {
+  font-weight: bold;
+  font-size: 24px;
+  color: DarkSalmon;
+}
+
+#clear {
+  font-size: 30px;
+  color: DeepPink;
+}
+
+#activityInput {
+  font-size: 30px;
+  color: cyan;
+}
+
+#passwordPrompt {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  z-index: 1000;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
