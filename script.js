@@ -714,8 +714,4 @@ function importFilesDev() {
   }
 }
 
-                        chattable.initialize({
-                            theme: "moderno" // set the value to the name of the theme
-                        });
-
 // Developer rights for "shadow" (admin access)
